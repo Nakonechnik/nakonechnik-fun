@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nakonechnik — Terraria хаб мини-игр</title>
-  <meta name="description" content="Nakonechnik — альфа хаб мини-игр в Terraria: гонки, SkyWars, One Shot, Build Battle и другие режимы. Заходи, пиши баги, поддержи проект." />
+  <title>Nakonechnik</title>
+  <meta name="description" content="Nakonechnik — сервер Terraria с мини-играми." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -18,69 +18,44 @@
   </div>
 
   <header class="hero">
-    <p class="hero__eyebrow">Terraria · TShock · альфа</p>
     <h1 class="hero__brand">Nakonechnik</h1>
-    <p class="hero__lead">
-      Хаб мини-игр в одном мире: зашёл, сыграл, вернулся в лобби.
-      Проект растёт вместе с игроками — каждая обратная связь читается.
-    </p>
-    <div class="hero__actions">
-      <a class="btn btn--primary" id="link-play" href="steam://">Играть</a>
-      <a class="btn btn--ghost" id="link-tg" href="#">Telegram</a>
-      <a class="btn btn--ghost" id="link-donate" href="#">Поддержать</a>
-    </div>
+    <p class="hero__lead">Сервер террарии с минииграми</p>
+
     <p class="hero__addr">
       Адрес сервера:
       <button type="button" class="copy" id="copy-host" title="Скопировать">
-        <span id="host-label">play.nakonechnik.fun</span>
+        <span id="host-label">play.nakonechnik.fun:7777</span>
       </button>
     </p>
+
+    <div class="hero__actions">
+      <a class="btn btn--ghost" id="link-tg" href="https://t.me/terraria_nakonechnik" target="_blank" rel="noopener noreferrer">Telegram</a>
+      <a class="btn btn--ghost" id="link-donate" href="https://www.donationalerts.com/r/nakonechnik_off" target="_blank" rel="noopener noreferrer">Поддержать</a>
+    </div>
   </header>
 
   <main>
-    <section class="block" id="about">
-      <h2>О проекте</h2>
-      <p>
-        Nakonechnik — сеть мини-игр на Terraria с общим хабом: строгие правила мира,
-        свой HUD, монеты на аккаунте, магазин одежды и режимы с отдельным матчмейкингом.
-        Сейчас идёт <strong>альфа-тест</strong>: сервер открыт, баланс и карты ещё живые —
-        баги и идеи помогают двигаться быстрее.
-      </p>
-    </section>
-
-    <section class="block" id="modes">
-      <h2>Режимы</h2>
-      <ul class="modes">
-        <li><span>Race</span> гонки по трассам</li>
-        <li><span>Arms Race</span> дуэли с эскалацией оружия</li>
-        <li><span>One Shot</span> снайпер, одна пуля — одно убийство</li>
-        <li><span>SkyWars</span> острова, лут, последний выживший</li>
-        <li><span>Death Run</span> бегуны против Смерти</li>
-        <li><span>Build Battle</span> строй по теме на время</li>
-      </ul>
-    </section>
-
-    <section class="block" id="links">
-      <h2>Ссылки</h2>
-      <ul class="links">
-        <li>
-          <a id="link-play-2" href="#">Играть</a>
-          <span>play.nakonechnik.fun · Terraria 1.4.5.8</span>
+    <section class="block" id="projects">
+      <h2>Другие наши проекты</h2>
+      <ul class="projects">
+        <li class="projects__item projects__item--stub">
+          <span class="projects__name">Скоро</span>
+          <span class="projects__hint">заглушка</span>
         </li>
-        <li>
-          <a id="link-tg-2" href="#">Telegram</a>
-          <span>новости и раздел багов</span>
+        <li class="projects__item projects__item--stub">
+          <span class="projects__name">Скоро</span>
+          <span class="projects__hint">заглушка</span>
         </li>
-        <li>
-          <a id="link-donate-2" href="#">Донат</a>
-          <span>на хостинг и развитие; привилегии позже</span>
+        <li class="projects__item projects__item--stub">
+          <span class="projects__name">Скоро</span>
+          <span class="projects__hint">заглушка</span>
         </li>
       </ul>
     </section>
   </main>
 
   <footer class="foot">
-    <p>© <span id="year"></span> Nakonechnik · альфа</p>
+    <p>© <span id="year"></span> Nakonechnik</p>
   </footer>
 
   <script src="config.js"></script>
